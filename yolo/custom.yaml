@@ -1,0 +1,9 @@
+train: C:\Users\Aziza\Desktop\Neopolis Dev\yolo\train
+val: C:\Users\Aziza\Desktop\Neopolis Dev\yolo\val
+
+#Classes
+nc: 1
+
+#classes names
+#replace all class names list with your classes names
+names: ['Section']
