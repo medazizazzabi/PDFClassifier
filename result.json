@@ -1,0 +1,605 @@
+[
+    {
+        "width": 97.78294487331746,
+        "height": 17.24535662443916,
+        "x": 165.1840277777778,
+        "y": 196.61284722222226,
+        "lines": "forme_juridique ",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 83.89579209553969,
+        "height": 17.24535662443916,
+        "x": 354.4878472222223,
+        "y": 196.61284722222223,
+        "lines": "raison_sociale",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 48.81245876220635,
+        "height": 15.783551068883604,
+        "x": 128.6388888888889,
+        "y": 220.7326388888889,
+        "lines": "adresse",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 18.11454209553969,
+        "height": 13.590842735550275,
+        "x": 130.10069444444446,
+        "y": 278.47395833333337,
+        "lines": "tel",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 68.54683376220635,
+        "height": 16.514453846661382,
+        "x": 141.06423611111111,
+        "y": 249.23784722222223,
+        "lines": "code_postal",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 61.96870876220635,
+        "height": 15.052648291105832,
+        "x": 344.25520833333337,
+        "y": 252.89236111111114,
+        "lines": "commune",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 55.39058376220635,
+        "height": 17.97625940221694,
+        "x": 347.90972222222223,
+        "y": 277.01215277777777,
+        "lines": "telecopie",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 34.925305984428576,
+        "height": 17.24535662443916,
+        "x": 510.1701388888889,
+        "y": 278.4739583333333,
+        "lines": "email",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 61.237805984428576,
+        "height": 16.514453846661382,
+        "x": 141.06423611111111,
+        "y": 306.9791666666667,
+        "lines": "num_siret",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 53.197875428873004,
+        "height": 15.052648291105832,
+        "x": 422.4618055555556,
+        "y": 308.44097222222223,
+        "lines": "code_naf ",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 80.97218098442858,
+        "height": 17.97625940221694,
+        "x": 638.078125,
+        "y": 309.9027777777778,
+        "lines": "date_creation",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 116.0555143177619,
+        "height": 18.707162179994718,
+        "x": 459.7378472222223,
+        "y": 372.0295138888889,
+        "lines": "echeance_principale ",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 79.51037542887302,
+        "height": 17.24535662443916,
+        "x": 235.35069444444449,
+        "y": 373.49131944444446,
+        "lines": "effet_garantie",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 205.2256532066508,
+        "height": 68.40855106888361,
+        "x": 239.73611111111114,
+        "y": 730.9027777777778,
+        "lines": "Veuillez identifier ce champ de texte",
+        "page": 0,
+        "appended": false
+    },
+    {
+        "width": 51.00516709553969,
+        "height": 18.707162179994718,
+        "x": 345.7170138888889,
+        "y": 147.64236111111114,
+        "lines": "effectif",
+        "page": 1,
+        "appended": false
+    },
+    {
+        "width": 92.66662542887302,
+        "height": 15.052648291105832,
+        "x": 317.94270833333337,
+        "y": 208.30729166666669,
+        "lines": "chiffres_affaires",
+        "page": 1,
+        "appended": false
+    },
+    {
+        "width": 108.7536530410461,
+        "height": 17.248196847015365,
+        "x": 243.38484375000002,
+        "y": 143.98442708333334,
+        "lines": "periode_fermeture ",
+        "page": 2,
+        "appended": false
+    },
+    {
+        "width": 99.98302804104611,
+        "height": 14.3246551803487,
+        "x": 220.72739583333333,
+        "y": 166.641875,
+        "lines": "occupation_hotel ",
+        "page": 2,
+        "appended": false
+    },
+    {
+        "width": 102.17568429104611,
+        "height": 17.248196847015365,
+        "x": 133.75203125000002,
+        "y": 222.18916666666667,
+        "lines": "adherent_chaine",
+        "page": 2,
+        "appended": false
+    },
+    {
+        "width": 95.59771554104611,
+        "height": 15.055540597015366,
+        "x": 136.67557291666668,
+        "y": 475.80640625,
+        "lines": "accord_tourisme ",
+        "page": 2,
+        "appended": false
+    },
+    {
+        "width": 99.97565320665079,
+        "height": 17.97625940221694,
+        "x": 122.79166666666669,
+        "y": 215.61631944444449,
+        "lines": "adresse_batiment",
+        "page": 3,
+        "appended": false
+    },
+    {
+        "width": 125.55725042887302,
+        "height": 16.514453846661382,
+        "x": 143.98784722222223,
+        "y": 242.65972222222223,
+        "lines": "code_postal_batiment",
+        "page": 3,
+        "appended": false
+    },
+    {
+        "width": 113.86280598442858,
+        "height": 15.783551068883604,
+        "x": 352.2951388888889,
+        "y": 241.19791666666669,
+        "lines": "commune_batiment",
+        "page": 3,
+        "appended": false
+    },
+    {
+        "width": 127.01905598442858,
+        "height": 15.783551068883604,
+        "x": 108.17361111111111,
+        "y": 450.9670138888889,
+        "lines": "localisation_batiment",
+        "page": 3,
+        "appended": false
+    },
+    {
+        "width": 94.85933376220635,
+        "height": 15.052648291105827,
+        "x": 114.02083333333334,
+        "y": 224.38715277777777,
+        "lines": "murs_exterieurs",
+        "page": 4,
+        "appended": false
+    },
+    {
+        "width": 118.24822265109525,
+        "height": 15.783551068883604,
+        "x": 353.02604166666674,
+        "y": 290.89930555555554,
+        "lines": "couverture_batiment ",
+        "page": 4,
+        "appended": false
+    },
+    {
+        "width": 69.27773653998412,
+        "height": 15.052648291105832,
+        "x": 110.36631944444446,
+        "y": 358.8732638888889,
+        "lines": "nbr_niveaux",
+        "page": 4,
+        "appended": false
+    },
+    {
+        "width": 97.05204209553969,
+        "height": 17.97625940221694,
+        "x": 464.1232638888889,
+        "y": 414.42187500000006,
+        "lines": "nature_planchers",
+        "page": 4,
+        "appended": false
+    },
+    {
+        "width": 179.64405598442858,
+        "height": 23.092578846661382,
+        "x": 451.6979166666667,
+        "y": 502.13020833333337,
+        "lines": "Veuillez identifier ce champ de texte",
+        "page": 4,
+        "appended": false
+    },
+    {
+        "width": 162.10238931776192,
+        "height": 15.783551068883604,
+        "x": 251.43055555555557,
+        "y": 277.7430555555556,
+        "lines": "date_installation_plomberie",
+        "page": 5,
+        "appended": false
+    },
+    {
+        "width": 161.37148653998412,
+        "height": 16.514453846661382,
+        "x": 579.6059027777778,
+        "y": 279.9357638888889,
+        "lines": "date_travaux_rec_plomberie",
+        "page": 5,
+        "appended": false
+    },
+    {
+        "width": 89.01211153998413,
+        "height": 17.97625940221694,
+        "x": 198.80555555555557,
+        "y": 338.40798611111114,
+        "lines": "type_chauffage",
+        "page": 5,
+        "appended": false
+    },
+    {
+        "width": 58.31419487331746,
+        "height": 16.51445384666139,
+        "x": 630.7690972222223,
+        "y": 247.0451388888889,
+        "lines": "surface_produit",
+        "page": 5,
+        "appended": false
+    },
+    {
+        "width": 205.2256532066508,
+        "height": 68.40855106888361,
+        "x": 728.7100694444446,
+        "y": 246.31423611111111,
+        "lines": "valeur_surface ",
+        "page": 5,
+        "appended": false
+    },
+    {
+        "width": 102.8992643177619,
+        "height": 13.590842735550275,
+        "x": 289.4375,
+        "y": 102.3263888888889,
+        "lines": "valeur_batiments",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 99.97565320665079,
+        "height": 16.514453846661382,
+        "x": 484.5885416666667,
+        "y": 127.17708333333334,
+        "lines": "valeur_contenu",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 120.44093098442858,
+        "height": 15.052648291105832,
+        "x": 245.58333333333334,
+        "y": 148.3732638888889,
+        "lines": "valeur_reequipement ",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 113.13190320665079,
+        "height": 15.783551068883604,
+        "x": 184.18750000000003,
+        "y": 171.03125,
+        "lines": "stock_marchandise ",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 91.93572265109523,
+        "height": 15.052648291105832,
+        "x": 243.39062500000003,
+        "y": 195.15104166666669,
+        "lines": "variation_stock",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 97.78294487331746,
+        "height": 15.783551068883604,
+        "x": 244.85243055555557,
+        "y": 214.1545138888889,
+        "lines": "debut_variation ",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 96.3211393177619,
+        "height": 17.24535662443916,
+        "x": 467.7777777777778,
+        "y": 209.76909722222223,
+        "lines": "fin_variation",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 50.27426431776189,
+        "height": 14.321745513328054,
+        "x": 124.25347222222223,
+        "y": 234.61979166666669,
+        "lines": "montant",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 90.47391709553968,
+        "height": 16.514453846661382,
+        "x": 154.22048611111111,
+        "y": 298.93923611111114,
+        "lines": "marque_fonds",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 66.354125428873,
+        "height": 17.97625940221694,
+        "x": 391.03298611111114,
+        "y": 299.6701388888889,
+        "lines": "type_fonds",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 104.36106987331746,
+        "height": 17.97625940221694,
+        "x": 649.0416666666667,
+        "y": 299.6701388888889,
+        "lines": "num_serie_fonds",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 124.82634765109525,
+        "height": 16.514453846661382,
+        "x": 252.89236111111114,
+        "y": 361.796875,
+        "lines": "nature_marchandises",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 169.4114170955397,
+        "height": 17.97625940221694,
+        "x": 577.4131944444445,
+        "y": 365.4513888888889,
+        "lines": "lieu_stockage_marchandises",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 106.55377820665079,
+        "height": 15.052648291105832,
+        "x": 260.2013888888889,
+        "y": 409.3055555555556,
+        "lines": "moyen_protection ",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 143.82981987331746,
+        "height": 17.24535662443916,
+        "x": 466.3159722222223,
+        "y": 428.3090277777778,
+        "lines": "date_visite_dep_securite ",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 154.79336153998412,
+        "height": 15.052648291105832,
+        "x": 361.0659722222223,
+        "y": 473.62500000000006,
+        "lines": "motif_nature_prescriptions ",
+        "page": 6,
+        "appended": false
+    },
+    {
+        "width": 179.64405598442858,
+        "height": 14.321745513328054,
+        "x": 565.71875,
+        "y": 362.5277777777778,
+        "lines": "periodicite_ramonage_conduits",
+        "page": 7,
+        "appended": false
+    },
+    {
+        "width": 137.25169487331746,
+        "height": 13.590842735550275,
+        "x": 566.4496527777778,
+        "y": 393.22569444444446,
+        "lines": "date_dernier_ramonage",
+        "page": 7,
+        "appended": false
+    },
+    {
+        "width": 124.09544487331746,
+        "height": 15.783551068883604,
+        "x": 567.9114583333334,
+        "y": 433.42534722222223,
+        "lines": "date_nature_travaux",
+        "page": 7,
+        "appended": false
+    },
+    {
+        "width": 130.6802155410461,
+        "height": 12.862884347015365,
+        "x": 168.10364583333333,
+        "y": 93.55333333333334,
+        "lines": "nbr_chambres_hotels",
+        "page": 10,
+        "appended": false
+    },
+    {
+        "width": 136.52729887437945,
+        "height": 17.97908226368203,
+        "x": 240.46130208333335,
+        "y": 121.32697916666667,
+        "lines": "capacite_acceuil_hotels",
+        "page": 10,
+        "appended": false
+    },
+    {
+        "width": 149.68323637437942,
+        "height": 18.709967680348697,
+        "x": 189.37578125000002,
+        "y": 325.2440104166667,
+        "lines": "nbr_places_parking_clos ",
+        "page": 10,
+        "appended": false
+    },
+    {
+        "width": 178.18776762437943,
+        "height": 15.055540597015366,
+        "x": 185.64489583333335,
+        "y": 384.4457291666667,
+        "lines": "nbr_places_parking_sousterrain",
+        "page": 10,
+        "appended": false
+    },
+    {
+        "width": 148.95235095771278,
+        "height": 22.36439476368203,
+        "x": 222.18916666666667,
+        "y": 548.1640625,
+        "lines": "activites_sportives_hotels ",
+        "page": 10,
+        "appended": false
+    },
+    {
+        "width": 88.28886137437945,
+        "height": 15.786426013682032,
+        "x": 495.5403125,
+        "y": 96.476875,
+        "lines": "type_restaurant ",
+        "page": 11,
+        "appended": false
+    },
+    {
+        "width": 123.37136137437945,
+        "height": 17.97908226368203,
+        "x": 233.15244791666666,
+        "y": 130.09760416666666,
+        "lines": "classement_categorie ",
+        "page": 11,
+        "appended": false
+    },
+    {
+        "width": 178.18776762437943,
+        "height": 15.786426013682032,
+        "x": 572.28328125,
+        "y": 130.09760416666666,
+        "lines": "capacite_acceuil_etablissement",
+        "page": 11,
+        "appended": false
+    },
+    {
+        "width": 94.86683012437945,
+        "height": 16.5173114303487,
+        "x": 131.55937500000002,
+        "y": 372.75156250000003,
+        "lines": "chambre_froide ",
+        "page": 11,
+        "appended": false
+    },
+    {
+        "width": 79.51823637437944,
+        "height": 15.786426013682032,
+        "x": 152.02416666666667,
+        "y": 253.61723958333334,
+        "lines": "commentaire ",
+        "page": 12,
+        "appended": false
+    },
+    {
+        "width": 158.44787542887303,
+        "height": 17.97625940221694,
+        "x": 297.4774305555556,
+        "y": 148.37326388888889,
+        "lines": "valeur_existant_batiments",
+        "page": 13,
+        "appended": false
+    },
+    {
+        "width": 143.0989170955397,
+        "height": 20.168967735550275,
+        "x": 483.8576388888889,
+        "y": 166.64583333333334,
+        "lines": "valeur_existant_contenu",
+        "page": 13,
+        "appended": false
+    },
+    {
+        "width": 205.2256532066508,
+        "height": 68.40855106888361,
+        "x": 247.77604166666669,
+        "y": 105.98090277777779,
+        "lines": "montant_franchise ",
+        "page": 15,
+        "appended": false
+    },
+    {
+        "width": 94.12843098442858,
+        "height": 17.97625940221694,
+        "x": 676.8159722222223,
+        "y": 189.30381944444446,
+        "lines": "risque_propose",
+        "page": 15,
+        "appended": false
+    }
+]

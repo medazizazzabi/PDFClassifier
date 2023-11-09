@@ -23,45 +23,6 @@
 
 <body class="is-boxed has-animations">
     <div class="slider">
-        <div class="slide" id="2">
-            <div class="step-wizard">
-                <ul class="step-wizard-list">
-                    <li class="step-wizard-item">
-                        <span class="progress-count">1</span>
-                        <span class="progress-label">Upload your pdf file</span>
-                    </li>
-                    <li class="step-wizard-item current-item">
-                        <span class="progress-count">2</span>
-                        <span class="progress-label">Title extraction</span>
-                    </li>
-                    <li class="step-wizard-item">
-                        <span class="progress-count">3</span>
-                        <span class="progress-label">Upload JSON</span>
-                    </li>
-                    <li class="step-wizard-item">
-                        <span class="progress-count">4</span>
-                        <span class="progress-label">Result</span>
-                    </li>
-                </ul>
-            </div>
-            <section class="pdf-update">
-                <div id="canvasContainer">
-                    <canvas id="c"></canvas>
-                </div>
-                <div class="controls">
-                    <input type="file" name="PDF" id="PDF">
-                    <button id="uploadbtn">Upload</button>
-                    <div id="uploadedFileCont"></div>
-                    <br>
-                    <button id="PrevPage">Previous Page</button>
-                    <button id="NextPage">Next Page</button>
-                    <ul>
-                        <li>Tilte</li>
-                        <li>Title</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
         <div class="slide" id="1">
             <div class="body-wrap">
                 <header class="site-header">
@@ -323,7 +284,7 @@
                 <ul class="step-wizard-list">
                     <li class="step-wizard-item current-item">
                         <span class="progress-count">1</span>
-                        <span class="progress-label">Upload your pdf file</span>
+                        <span class="progress-label">Upload your PDF file</span>
                     </li>
                     <li class="step-wizard-item">
                         <span class="progress-count">2</span>
@@ -331,7 +292,7 @@
                     </li>
                     <li class="step-wizard-item">
                         <span class="progress-count">3</span>
-                        <span class="progress-label">Upload JSON</span>
+                        <span class="progress-label">Upload JSON file</span>
                     </li>
                     <li class="step-wizard-item">
                         <span class="progress-count">4</span>
@@ -345,32 +306,125 @@
                         <h1>Upload your files</h1>
                     </header>
                     <div class="dropArea" id="dropArea">
-                        <div class="contentHolder">
+                        <div class="contentHolder" id="uploadBtnCont">
                             <img src="https://raw.githubusercontent.com/Dinesh1042/Vanilla-JavaScript-Projects/54beb49518ed741a02ded177d987ea67fd9ebed1/Upload%20Drag%20and%20Drop/asset/upload.svg"
                                 draggable="false" alt="upload-icon" />
                             <p id="dropText">Drag & Drop your files</p>
                             <span>Or</span>
-                            <input type="file" multiple id="uploadInput" />
+                            <input type="file" id="uploadInput" accept=".pdf" />
                             <button id="browseBtn">Browse File</button>
                         </div>
                     </div>
                     <div class="uploadedFileCont" id="uploadedFileCont"></div>
                 </div>
-                <div class="outer">
+                <div class="outer" style="height: 400px;">
                     <div class="inner"></div>
                 </div>
                 <div class="PSA">
                     <h1>Use PSA Credentials</h1>
                 </div>
             </section>
-            <button>Upload</button>
+            <button id="uploadbtn" class="nextBtn button button-primary" style="margin-bottom: 10px;">Upload</button>
         </div>
+        <div class="slide" id="2">
+            <div class="step-wizard">
+                <ul class="step-wizard-list">
+                    <li class="step-wizard-item">
+                        <span class="progress-count">1</span>
+                        <span class="progress-label">Upload your PDF file</span>
+                    </li>
+                    <li class="step-wizard-item current-item">
+                        <span class="progress-count">2</span>
+                        <span class="progress-label">Title extraction</span>
+                    </li>
+                    <li class="step-wizard-item">
+                        <span class="progress-count">3</span>
+                        <span class="progress-label">Upload JSON file</span>
+                    </li>
+                    <li class="step-wizard-item">
+                        <span class="progress-count">4</span>
+                        <span class="progress-label">Result</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="spinner" class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <section class="pdf-update" id="yolo">
+                <div id="canvasContainer">
+                    <canvas id="c"></canvas>
+                </div>
+                <div class="controls">
+                    <button class="button" id="PrevPage">Previous Page</button>
+                    <button class="button" id="NextPage">Next Page</button>
+                    <ul id="titleList" style="color: white;">
+                    </ul>
+                    <button class="nextBtn button button-primary" id="saveTitle">Next Step</button>
+                </div>
+            </section>
+        </div>
+        <div class="slide">
+            <div class="step-wizard">
+                <ul class="step-wizard-list">
+                    <li class="step-wizard-item">
+                        <span class="progress-count">1</span>
+                        <span class="progress-label">Upload your PDF file</span>
+                    </li>
+                    <li class="step-wizard-item">
+                        <span class="progress-count">2</span>
+                        <span class="progress-label">Title extraction</span>
+                    </li>
+                    <li class="step-wizard-item current-item">
+                        <span class="progress-count">3</span>
+                        <span class="progress-label">Upload JSON file</span>
+                    </li>
+                    <li class="step-wizard-item">
+                        <span class="progress-count">4</span>
+                        <span class="progress-label">Result</span>
+                    </li>
+                </ul>
+            </div>
+            <section class="upload-box" style="justify-content: space-around;">
+                <div class="upload">
+                    <header>
+                        <h1>Upload your files</h1>
+                    </header>
+                    <div class="dropArea" id="dropArea1">
+                        <div class="contentHolder" id="uploadBtnCont1">
+                            <img src="https://raw.githubusercontent.com/Dinesh1042/Vanilla-JavaScript-Projects/54beb49518ed741a02ded177d987ea67fd9ebed1/Upload%20Drag%20and%20Drop/asset/upload.svg"
+                                draggable="false" alt="upload-icon" />
+                            <p id="dropText1">Drag & Drop your files</p>
+                            <span>Or</span>
+                            <input type="file" id="uploadInput1" accept=".json" />
+                            <button id="browseBtn1">Browse File</button>
+                        </div>
+                    </div>
+                    <div class="uploadedFileCont" id="uploadedFileCont1"></div>
+                </div>
+            </section>
+            <button id="uploadbtn1" class="nextBtn button button-primary">Upload</button>
+        </div>
+        <div class="slide" style="padding: 30px;">
+            <div id="nestableContainer" class="dd center-me" style="max-height: 50vh; overflow-y:scroll;"></div>
+            <button class="button button-primary" id="download"> Download Data</button>
+        </div>
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"
-    integrity="sha512-CeIsOAsgJnmevfCi2C7Zsyy6bQKi43utIjdA87Q0ZY84oDqnI0uwfM9+bKiIkI75lUeI00WG/+uJzOmuHlesMA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        integrity="sha512-CeIsOAsgJnmevfCi2C7Zsyy6bQKi43utIjdA87Q0ZY84oDqnI0uwfM9+bKiIkI75lUeI00WG/+uJzOmuHlesMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/jquery.nestable.js') }}"></script>
     <script src="{{ url_for('static', filename='js/canvastools.js') }}"></script>
     <script src="{{ url_for('static', filename='js/main.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/fileuploader.js') }}"></script>
 </body>
 
 </html>

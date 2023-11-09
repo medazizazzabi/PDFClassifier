@@ -84,12 +84,34 @@ def getOCR():
         box = json.loads(box)
         xyxy = [box['x'],box['y'],box['x']+box['w'],box['y']+box['h']]
 
-        text = OCR(image,xyxy)
+        text = OCR(image,xyxy).strip()
         return jsonify({'status': 'success', 'text': text})
+    elif 'boxes' in request.form:
+        boxes = request.form['boxes']
+        boxes = json.loads(boxes)
+        image = request.form['image']
+        image = base64_to_numpy(image)
+        text = []
+        for box in boxes:
+            xyxy = [box['x'],box['y'],box['x']+box['w'],box['y']+box['h']]
+            text.append(OCR(image,xyxy).strip())
+        return jsonify({'status': 'success', 'text': text})
+    else:
+        return jsonify({'status': 'failed', 'message': 'Missing Files'})
+    
+@app.route('/api/classify', methods=['POST'])
+def getClassification():
+    if 'fields' in request.files and 'categories' in request.form:
+        fields = request.files['fields']
+        fields = json.load(fields)
+        categories = request.form['categories']
+        categories = json.loads(categories)
+        result = classify(categories,fields)
+        return jsonify({'status': 'success', 'result': result})
     else:
         return jsonify({'status': 'failed', 'message': 'Missing Files'})
 
 if __name__ == '__main__':
     app.jinja_env.auto_reload = True
     app.config['TEMPLATES_AUTO_RELOAD'] = True
-    app.run(debug=True)
+    app.run(debug=True,port=3232)

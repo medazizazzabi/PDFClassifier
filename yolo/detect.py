@@ -18,7 +18,7 @@ def OCR(image,boudingbox)-> str:
 model = YOLO('best.pt')
 
 # Define path to the image file
-source = 'image.png'
+source = 'test2.png'
 # Run inference on the source
 results = model(source) 
 

@@ -9,7 +9,6 @@ def getData(filename):
 def cleanUpFields(data):
     removeList=['id','type','size','lineHeight','fontFamily','fieldType','TextFormat','FormatCode','charactersNumber','visibility','relation','color']
     output = []
-
     for index,page in enumerate(data):
         for field in page:
             field['page']=index
@@ -37,14 +36,12 @@ def saveResults(res):
 
 def classify(categories,fields):
     cleanFields = cleanUpFields(fields)
-
     classification=createClassification(categories,cleanFields)
     return classification
 
 
 if __name__ == '__main__':
-    categories = getData('categories.json')
     fields = getData('fields.json')
-    result = classify(categories,fields)
+    result = cleanUpFields(fields)
     saveResults(result)
     print(result)
