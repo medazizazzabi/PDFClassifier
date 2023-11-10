@@ -36,7 +36,6 @@ def convertPDF2IMG(path,name = None):
     return jsonR
 
 def OCR(image_numpy,boudingbox)-> str:
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
     image = Image.fromarray(image_numpy)
     #For debugging
     image.save('image.png')
